@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>¿Qué es la BIOS?</title>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <header>
+            <h1>¿Qué es la BIOS?</h1>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="pagina2.html">Funciones de la BIOS</a>
+                <a href="pagina3.html">Configuración y opciones de la BIOS</a>
+                <a href="pagina4.html">Errores y solución de problemas</a>
+                <a href="pagina5.html">Importancia actual de la BIOS</a>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2>Definición general</h2>
+                <p>
+                    La <strong>BIOS</strong> (siglas en inglés de <em>Basic Input/Output System</em>, o “Sistema Básico de Entrada y Salida”) es un conjunto de instrucciones grabadas en un chip de memoria de la placa base. 
+                    Su tarea principal es garantizar que todos los componentes esenciales del ordenador funcionen correctamente antes de cargar el sistema operativo. 
+                    Sin la BIOS, la computadora no sabría cómo comunicarse con los dispositivos básicos, como el teclado, el disco duro o la memoria RAM.
+                </p>
+                <p>
+                    En términos sencillos, la BIOS es el primer software que actúa al encender el computador: verifica que todo esté en orden, identifica los dispositivos conectados y finalmente entrega el control al sistema operativo para que este inicie.
+                </p>
+            </section>
+
+            <section>
+                <h2>Un poco de historia</h2>
+                <p>
+                    La idea de la BIOS surgió en los años 70, cuando las primeras computadoras personales comenzaron a fabricarse en masa. 
+                    El término fue utilizado por primera vez por IBM en 1981, con el lanzamiento de su computadora <em>IBM PC</em>. 
+                    En esa época, la BIOS era un código muy simple almacenado en una memoria ROM que apenas podía realizar pruebas básicas del hardware.
+                </p>
+                <p>
+                    Con el paso del tiempo, la BIOS evolucionó para adaptarse a nuevos dispositivos y tecnologías. 
+                    En los años 90 y 2000, se introdujeron versiones mejoradas con interfaces más visuales y soporte para configuraciones avanzadas. 
+                    Sin embargo, su estructura limitada llevó a la creación del sistema <strong>UEFI</strong>, una versión moderna de la BIOS con muchas más capacidades.
+                </p>
+            </section>
+
+            <section>
+                <h2>Funcionamiento general</h2>
+                <p>
+                    Cada vez que presionas el botón de encendido, la BIOS se activa automáticamente. 
+                    En ese momento ejecuta un proceso conocido como <strong>POST</strong> (<em>Power-On Self Test</em>), que verifica el estado de los componentes esenciales como la memoria RAM, la tarjeta gráfica, el teclado, el procesador y los discos.
+                </p>
+                <p>
+                    Si todo está bien, la BIOS busca un dispositivo de arranque (por ejemplo, el disco duro o una memoria USB) y entrega el control al sistema operativo para que empiece el proceso de carga. 
+                    Si detecta algún fallo, muestra códigos o pitidos específicos que ayudan al usuario o técnico a identificar el problema.
+                </p>
+                <img src="IMG/450_1000.jpg" alt="Pantalla de inicio de la BIOS" width="400">
+            </section>
+
+            <section>
+                <h2>Componentes y estructura</h2>
+                <ul>
+                    <li><strong>POST (Power-On Self Test):</strong> prueba inicial de hardware que garantiza que todos los componentes esenciales funcionen correctamente.</li>
+                    <li><strong>Boot Loader:</strong> sistema encargado de buscar el dispositivo desde el cual se iniciará el sistema operativo.</li>
+                    <li><strong>CMOS Setup:</strong> menú de configuración donde el usuario puede modificar parámetros del sistema como la hora, el orden de arranque o la detección de hardware.</li>
+                    <li><strong>Drivers básicos:</strong> pequeños controladores incluidos en la BIOS para permitir que el hardware funcione sin depender del sistema operativo.</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Importancia dentro del sistema</h2>
+                <p>
+                    La BIOS cumple un papel esencial en el funcionamiento del ordenador, ya que actúa como un puente entre el hardware y el software. 
+                    Si este sistema fallara o estuviera dañado, la computadora no podría arrancar, y por lo tanto, no sería posible usar el sistema operativo.
+                </p>
+                <p>
+                    Además, permite realizar configuraciones avanzadas que afectan directamente al rendimiento del equipo. 
+                    Por ejemplo, un usuario puede ajustar la velocidad del procesador, controlar la ventilación, desactivar puertos, o elegir desde qué unidad iniciar el sistema.
+                </p>
+            </section>
+
+            <section>
+                <h2>Curiosidades y datos interesantes</h2>
+                <ul>
+                    <li>La palabra "BIOS" proviene del griego, que significa “vida”. Es un nombre simbólico porque da “vida” al hardware del equipo.</li>
+                    <li>Algunas placas modernas todavía permiten acceder a la BIOS presionando teclas como <strong>DEL</strong>, <strong>F2</strong> o <strong>ESC</strong> justo al encender el PC.</li>
+                    <li>Es posible actualizar la BIOS (proceso llamado <em>flasheo</em>), pero debe hacerse con precaución, ya que un error puede dejar el equipo inutilizable.</li>
+                    <li>El reemplazo moderno de la BIOS es la <strong>UEFI</strong>, que incluye interfaz gráfica, soporte para mouse y opciones de seguridad avanzadas.</li>
+                </ul>
+            </section>
+        </main>
+
+        <footer>
+            <p>Creado por Fabricio M — Proyecto educativo sobre BIOS</p>
+        </footer>
+    </body>
+</html>

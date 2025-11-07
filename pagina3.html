@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Configuración y opciones de la BIOS</title>
+        <link rel="stylesheet" href="css/estilos.css">
+    </head>
+    <body>
+        <header>
+            <h1>Configuración y opciones de la BIOS</h1>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="pagina1.html">¿Qué es la BIOS?</a>
+                <a href="pagina2.html">Funciones de la BIOS</a>
+                <a href="pagina4.html">Errores y solución de problemas</a>
+                <a href="pagina5.html">Importancia actual de la BIOS</a>
+            </nav>
+        </header>
+
+        <main>
+            <section>
+                <h2> la configuración de la BIOS</h2>
+                <p>
+                    La configuración de la BIOS es una de las tareas más importantes que puede realizar un usuario avanzado o técnico en informática, ya que desde este entorno se establecen los parámetros básicos que permiten que el hardware y el sistema operativo funcionen correctamente. 
+                    El menú de configuración, conocido comúnmente como <em>Setup Utility</em>, es un entorno gráfico muy simple (aunque cada vez más moderno en versiones UEFI) que brinda acceso directo a funciones que determinan cómo inicia el equipo, cómo interactúan sus componentes y qué características están activas o desactivadas.
+                </p>
+                <p>
+                    Al ingresar al BIOS Setup, el usuario puede modificar configuraciones relacionadas con el procesador, la memoria RAM, los discos duros, la tarjeta gráfica integrada, el orden de arranque, la fecha y hora del sistema, la velocidad de los ventiladores, el voltaje, la seguridad, entre muchos otros aspectos. 
+                    Aunque hoy en día la mayoría de las computadoras modernas utilizan interfaces UEFI con soporte para mouse y pantallas gráficas más intuitivas, el principio de funcionamiento sigue siendo el mismo: la BIOS/UEFI se encarga de preparar el hardware para que el sistema operativo pueda ejecutarse sin inconvenientes.
+                </p>
+            </section>
+
+            <section>
+                <h2>Principales secciones del BIOS Setup</h2>
+                <p>
+                    Cada fabricante de placas base puede tener una organización distinta de las opciones, pero generalmente las BIOS incluyen varias secciones comunes que agrupan los parámetros por tipo de función. 
+                    A continuación, se detallan las más importantes:
+                </p>
+                <ul>
+                    <li>
+                        <strong>Main (Principal):</strong> Muestra información general del sistema, como el tipo de procesador, la cantidad de memoria RAM instalada, la fecha y hora, y los dispositivos de almacenamiento detectados. Desde aquí también se pueden ajustar parámetros básicos como la hora del sistema o el idioma de la BIOS.
+                    </li>
+                    <li>
+                        <strong>Advanced (Avanzado):</strong> Contiene opciones relacionadas con el comportamiento del procesador (frecuencia, número de núcleos, tecnologías de ahorro de energía, etc.), así como configuraciones de dispositivos integrados como el controlador SATA, puertos USB, audio, red y video.
+                    </li>
+                    <li>
+                        <strong>Boot (Arranque):</strong> Permite establecer el orden en que la computadora buscará los dispositivos desde los cuales intentará iniciar el sistema operativo. Por ejemplo, un usuario puede hacer que primero se lea una memoria USB antes del disco duro principal para instalar un nuevo sistema operativo.
+                    </li>
+                    <li>
+                        <strong>Security (Seguridad):</strong> Aquí se pueden establecer contraseñas de acceso a la BIOS, contraseñas para proteger el inicio del sistema o incluso activar tecnologías de seguridad como el TPM (Trusted Platform Module) o la protección Secure Boot.
+                    </li>
+                    <li>
+                        <strong>Exit (Salir):</strong> En esta sección se puede guardar o descartar los cambios realizados, restaurar la configuración de fábrica o salir de la interfaz. Es importante guardar siempre los cambios antes de salir para que las nuevas configuraciones tengan efecto.
+                    </li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Configuraciones más comunes en la BIOS</h2>
+                <p>
+                    Existen varias configuraciones que suelen modificarse con frecuencia dependiendo de las necesidades del usuario o del técnico que realiza el mantenimiento. Algunas de las más comunes son:
+                </p>
+                <ul>
+                    <li><strong>Orden de arranque:</strong> Determina el dispositivo desde el cual se iniciará el sistema operativo. Es útil cuando se desea arrancar desde un USB para instalar o reparar el sistema.</li>
+                    <li><strong>Habilitar o deshabilitar dispositivos:</strong> Desde la BIOS se puede desactivar hardware integrado como el adaptador de red, el audio o el video, si no se necesitan o si interfieren con otros componentes.</li>
+                    <li><strong>Administración de energía:</strong> Permite configurar el comportamiento del equipo en cuanto a ahorro de energía, suspensión, apagado automático de ventiladores y velocidad del procesador.</li>
+                    <li><strong>Configuración de la memoria:</strong> Aquí se puede ajustar la frecuencia y latencia de la RAM. En equipos de alto rendimiento, esto es fundamental para obtener la máxima velocidad posible.</li>
+                    <li><strong>Activación de virtualización:</strong> Para ejecutar máquinas virtuales con mejor rendimiento, es necesario habilitar la opción de virtualización (Intel VT-x o AMD-V).</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Importancia de una correcta configuración</h2>
+                <p>
+                    Una configuración inadecuada en la BIOS puede generar errores graves, como que el sistema no reconozca los discos duros, que el arranque sea muy lento, que la temperatura del procesador aumente excesivamente o incluso que el equipo no inicie en absoluto. Por eso, es esencial modificar solo los parámetros que se conocen y comprender bien su función antes de aplicar cambios.
+                </p>
+                <p>
+                    Cuando una computadora presenta fallas extrañas o el sistema operativo no se carga correctamente, muchas veces el problema está en una configuración incorrecta del BIOS. Restaurar los valores por defecto suele resolver la mayoría de estos inconvenientes.
+                </p>
+                <p>
+                    Además, las configuraciones adecuadas permiten aprovechar al máximo el rendimiento del hardware. Por ejemplo, una buena gestión del arranque puede reducir el tiempo que tarda el equipo en encenderse, y una correcta asignación de memoria puede mejorar la velocidad en tareas exigentes.
+                </p>
+            </section>
+
+            <section>
+                <h2>Cómo acceder y navegar dentro de la BIOS</h2>
+                <p>
+                    Para acceder a la BIOS, normalmente es necesario presionar una tecla específica durante los primeros segundos del encendido del equipo. Las más comunes son <strong>DEL</strong>, <strong>F2</strong>, <strong>F10</strong> o <strong>ESC</strong>, dependiendo del fabricante. Una vez dentro, se utiliza el teclado para desplazarse entre las opciones (aunque en BIOS modernas también se puede usar el mouse).
+                </p>
+                <p>
+                    Navegar por la BIOS puede parecer complicado al principio, pero la mayoría de los menús están bien organizados. En la parte inferior de la pantalla suelen mostrarse las teclas necesarias para moverse, guardar cambios o salir. 
+                    En sistemas UEFI, la interfaz es mucho más intuitiva y visual, con secciones claramente separadas y descripciones explicativas.
+                </p>
+            </section>
+        </main>
+
+        <footer>
+            <p>Creado por Fabricio M - proyecto educativo sobre BIOS</p>
+        </footer>
+    </body>
+</html>
